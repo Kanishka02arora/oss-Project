@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script 6: Student Info Generator
+# Script 5: Student Info Generator
 
 echo "=============================="
 echo "   Student Info Generator"
