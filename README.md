@@ -17,8 +17,6 @@ So overall, this project gave me a better understanding of open-source, not just
 
 ## Repository Structure
 
-## Repository Structure
-
 ```
 oss_project/
 │
@@ -53,34 +51,99 @@ Python is also required for this project, as it is the chosen open-source softwa
 
 ---
 
-### Python Setup
+## Running the Scripts
 
-Python is already installed on the system.
+### Script 1: System Identity Report
 
-To verify installation, use:
+**Command:**
 
 ```bash
-python --version
+bash script1.sh
+```
 
-## Step-by-Step Setup
-
-### Step 1: Open Git Bash
-
-Open Git Bash on your system.
+Displays system information such as user, system name, kernel version, and date.
 
 ---
 
-### Step 2: Go to Project Folder
+### Script 2: FOSS Package Inspector
+
+**Command:**
 
 ```bash
-cd oss_project
-##Step 3
-ls
-##Step 4
-chmod +x *.sh
-## Step 5
-bash script1.sh
 bash script2.sh
+```
+
+Checks whether Python is installed and shows its version and basic details.
+
+---
+
+### Script 3: Disk and Permission Auditor
+
+**Command:**
+
+```bash
 bash script3.sh
+```
+
+Shows directory files, sizes, and permission details.
+
+---
+
+### Script 4: Log File Analyzer
+
+**Command:**
+
+```bash
 bash script4.sh
+```
+
+Searches for keywords like "error" in files.
+
+---
+
+### Script 5: Student Info Generator
+
+**Command:**
+
+```bash
 bash script5.sh
+```
+
+Takes user input and displays student-related information.
+bash run_all.sh
+
+## Tested Environment
+
+This project was tested on the following setup:
+
+- Windows 10/11 using Git Bash — Working  
+- Basic Linux commands supported in Git Bash — Working  
+- Python installed (version checked using python --version) — Working  
+
+All scripts were executed successfully in this environment. Some commands may behave slightly differently compared to a full Linux system, but overall functionality remains the same.
+
+## Dependencies Summary
+
+The scripts in this project use some basic command line utilities.
+
+- Script 1: uname, whoami, date  
+- Script 2: python, command  
+- Script 3: ls, du  
+- Script 4: grep, wc  
+- Script 5: read, echo  
+
+These are simple and commonly available commands in Git Bash or Linux, so no extra installation was required.
+
+## Author Information
+
+Name: Kanishka Arora  
+Registration Number: 24BAI10861  
+Course: Open Source Software (OSS NGMC)  
+
+This project was completed as part of the course requirement. It is based on Python and includes basic shell scripting tasks performed using Git Bash.
+
+## Repository Link
+
+https://github.com/Kanishka02arora/oss-Project
+
+
